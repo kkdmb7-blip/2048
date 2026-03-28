@@ -542,6 +542,12 @@ hr {
   line-height: 42px;
   margin-bottom: 0; }
 
+.btn-row {
+  float: right;
+  display: flex;
+  align-items: center;
+  gap: 8px; }
+
 .restart-button {
   display: inline-block;
   background: #8f7a66;
@@ -550,10 +556,9 @@ hr {
   text-decoration: none;
   color: #f9f6f2;
   height: 40px;
-  line-height: 42px;
-  display: block;
+  line-height: 40px;
   text-align: center;
-  float: right; }
+  white-space: nowrap; }
 
 .game-explanation {
   margin-top: 50px; }
@@ -588,12 +593,22 @@ hr {
     box-sizing: border-box;
     line-height: 1.65; }
 
+  .btn-row {
+    float: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    gap: 6px; }
+
   .restart-button {
-    width: 42%;
-    padding: 0;
-    display: block;
-    box-sizing: border-box;
-    margin-top: 2px; }
+    padding: 0 12px;
+    white-space: nowrap;
+    font-size: 14px; }
+
+  .picol-badge {
+    padding: 0 10px;
+    font-size: 12px;
+    white-space: nowrap; }
 
   .game-container {
     margin-top: 17px;
