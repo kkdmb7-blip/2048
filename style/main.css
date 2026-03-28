@@ -4,7 +4,7 @@ html, body {
   padding: 0;
   background: #faf8ef;
   color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Noto Sans KR", "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
@@ -90,10 +90,10 @@ h1.title {
     animation-fill-mode: both; }
 
 .score-container:after {
-  content: "Score"; }
+  content: "점수"; }
 
 .best-container:after {
-  content: "Best"; }
+  content: "최고점수"; }
 
 p {
   margin-top: 0;
@@ -108,6 +108,35 @@ a {
 
 strong.important {
   text-transform: uppercase; }
+
+.picol-footer {
+  font-size: 13px;
+  color: #aaa;
+  text-align: center;
+  margin-top: 20px; }
+
+.picol-footer a {
+  color: #aaa;
+  font-weight: normal; }
+
+.picol-badge {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  background: #f67c5f;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: "Noto Sans KR", sans-serif;
+  z-index: 9999; }
+
+.picol-badge:hover {
+  opacity: 0.85;
+  text-decoration: none;
+  color: #fff; }
 
 hr {
   border: none;
