@@ -120,9 +120,6 @@ strong.important {
   font-weight: normal; }
 
 .picol-badge {
-  position: fixed;
-  top: 16px;
-  right: 16px;
   background: #f67c5f;
   color: #fff;
   font-size: 13px;
@@ -130,8 +127,7 @@ strong.important {
   padding: 6px 14px;
   border-radius: 20px;
   text-decoration: none;
-  font-family: "Noto Sans KR", sans-serif;
-  z-index: 9999; }
+  font-family: "Noto Sans KR", sans-serif; }
 
 .picol-badge:hover {
   opacity: 0.85;
